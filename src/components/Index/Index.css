@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* .header-container {
+    position: fixed;
+    width: 100%;
+    background-color: #1f2937;
+    z-index: 1;
+} */
 
 nav {
     display: flex;
@@ -28,4 +36,77 @@ nav a {
 nav ul li img {
     padding-right: 0.3em;
     filter: invert();
+}
+
+.main-header-content {
+    display: flex;
+    align-items: center;
+    color: #1F2937;
+    background-color: #1f2937;
+    padding: 2em 8em;
+    /* transform: translateY(100%); */
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+/* .main-header-content.slide-down {
+    transform: translateY(100%);
+} */
+
+.main-title-style {
+    color: #E5E7EB;
+    font-size: 46px;
+    padding: 2% 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.main-desc-style {
+    color: #E5E7EB;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-right: 25%;
+}
+
+.aeropuerto-ez {
+    width: 450px;
+    height: auto;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.equipos-img {
+    height: 200px;
+    width: 250px;
+    border-radius: 15%;
+}
+
+.our-tech {
+    display: flex;
+    align-items: center;
+}
+
+.item-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.item-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
