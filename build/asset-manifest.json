@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b671d73.css",
-    "main.js": "/static/js/main.6f720256.js",
-    "static/js/787.8b963bfd.chunk.js": "/static/js/787.8b963bfd.chunk.js",
-    "static/media/aeropuerto-ezeiza.jpg": "/static/media/aeropuerto-ezeiza.cfbf8aba9df792878f65.jpg",
-    "static/media/airport-equipment-2.jpg": "/static/media/airport-equipment-2.6ce427815f3709865b2f.jpg",
-    "static/media/airport-equipment-1.jpg": "/static/media/airport-equipment-1.c2b5b6a11475ad5f7960.jpg",
-    "static/media/Dailogo-nobg.png": "/static/media/Dailogo-nobg.8582a69768b88ceb90fc.png",
-    "index.html": "/index.html",
-    "static/media/contact.svg": "/static/media/contact.03b27025b14c15ed7a73c7166a612605.svg",
-    "static/media/products.svg": "/static/media/products.e897e1ddc5e57a0193e8c488dde70263.svg",
-    "static/media/home.svg": "/static/media/home.60f8c7fb5431a2fd0db53feb35c2a0e1.svg",
-    "static/media/about.svg": "/static/media/about.1f76e71d9e6db65e44bdbaa5b6112d30.svg",
-    "main.5b671d73.css.map": "/static/css/main.5b671d73.css.map",
-    "main.6f720256.js.map": "/static/js/main.6f720256.js.map",
-    "787.8b963bfd.chunk.js.map": "/static/js/787.8b963bfd.chunk.js.map"
+    "main.css": "/dainippon-electronics/static/css/main.5b671d73.css",
+    "main.js": "/dainippon-electronics/static/js/main.4426d68f.js",
+    "static/js/787.8b963bfd.chunk.js": "/dainippon-electronics/static/js/787.8b963bfd.chunk.js",
+    "static/media/aeropuerto-ezeiza.jpg": "/dainippon-electronics/static/media/aeropuerto-ezeiza.cfbf8aba9df792878f65.jpg",
+    "static/media/airport-equipment-2.jpg": "/dainippon-electronics/static/media/airport-equipment-2.6ce427815f3709865b2f.jpg",
+    "static/media/airport-equipment-1.jpg": "/dainippon-electronics/static/media/airport-equipment-1.c2b5b6a11475ad5f7960.jpg",
+    "static/media/Dailogo-nobg.png": "/dainippon-electronics/static/media/Dailogo-nobg.8582a69768b88ceb90fc.png",
+    "index.html": "/dainippon-electronics/index.html",
+    "static/media/contact.svg": "/dainippon-electronics/static/media/contact.03b27025b14c15ed7a73c7166a612605.svg",
+    "static/media/products.svg": "/dainippon-electronics/static/media/products.e897e1ddc5e57a0193e8c488dde70263.svg",
+    "static/media/home.svg": "/dainippon-electronics/static/media/home.60f8c7fb5431a2fd0db53feb35c2a0e1.svg",
+    "static/media/about.svg": "/dainippon-electronics/static/media/about.1f76e71d9e6db65e44bdbaa5b6112d30.svg",
+    "main.5b671d73.css.map": "/dainippon-electronics/static/css/main.5b671d73.css.map",
+    "main.4426d68f.js.map": "/dainippon-electronics/static/js/main.4426d68f.js.map",
+    "787.8b963bfd.chunk.js.map": "/dainippon-electronics/static/js/787.8b963bfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b671d73.css",
-    "static/js/main.6f720256.js"
+    "static/js/main.4426d68f.js"
   ]
 }
