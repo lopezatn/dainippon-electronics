@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Index.css";
 import DaiLogo from "../../assets/Dailogo-nobg.png";
 import HomeImg from "../../assets/home.svg";
@@ -11,14 +11,6 @@ import Equipment2 from "../../assets/airport-equipment-2.jpg";
 
 
 function Home() { 
-  const [animate, setAnimate] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setAnimate(false);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <div>
@@ -54,8 +46,8 @@ function Home() {
         </nav>
       </header>
 
-      <main>
-        <section class={`main-header-content ${animate ? "slide-down" : ""}`}>
+      <main class="main-content">
+        <section class="main-header-content">
           <div class="left-container">
             <header>
               <h2 class="main-title-style">Bienvenido!</h2>
@@ -76,7 +68,9 @@ function Home() {
         <section class="our-tech">
           <div class="item-left">
             <img src={Equipment1} alt="img-aeroportuaria" class="equipos-img"/>
-            <header>Nuestras tecnologías</header>
+            <header>
+              <h3>Nuestras tecnologías</h3>
+            </header>
             <ul>
             <li>Sistemas de inspección por rayos X (scanners) para equipaje de mano y despachado.</li>
             <li>Sistemas de inspección de carga a granel y pallets.</li>
@@ -94,10 +88,11 @@ function Home() {
             <li>Desarrollo de soluciones personalizadas.</li>
             </ul>
           </div>
-          <br/><br/>
           <div class="item-right">
             <img src={Equipment2} alt="img-aeroportuaria" class="equipos-img"/>
-            <header>Servicios</header>
+            <header>
+              <h3>Servicios</h3>
+            </header>
             <ul>
             <li>Asesoramiento de proyecto para identificar la solución más efectiva.</li>
             <li>Capacitación de operadores incluida con la adquisición del equipamiento.</li>
@@ -109,7 +104,7 @@ function Home() {
 
       </main>
 
-      {/* <footer>Copyright © Dainippon 2023</footer> */}
+      <footer class="dai-footer">Copyright © Dainippon 2023</footer>
     </div>
   );
 }
