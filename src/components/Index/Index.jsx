@@ -102,6 +102,23 @@ function Home() {
           </div>
         </section>
 
+        <section class="sign-up-section">
+            <section class="sign-up-container center-75">
+                <div class="sign-up-flex-container center-75">
+                    <section class="sign-up-left-container">
+                        <h4 class="sign-up-title">Esperamos su consulta!</h4>
+                        <p class="sign-up-content">Realizamos un análisis de sus necesidades y ofrecemos una solución adecuada</p>
+                    </section>
+                    <section class="sign-up-right-container">
+                        <a href="./signup.html"><button class="sign-up-button">Contactar</button></a>
+                    </section>
+                </div>
+            </section>
+        </section>
+
+        <section class="flex-box-container">
+          <div class="left-content">box 1</div><div class="right-content">box 2</div>
+        </section>
       </main>
 
       <footer class="dai-footer">Copyright © Dainippon 2023</footer>
