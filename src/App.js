@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/dainippon-electronics" component={Home} />
           <Route exact path="/Nuestra-empresa" component={Company} />
           <Route exact path="/Productos" component={Products} />
           <Route exact path="/Contacto" component={Contact} />

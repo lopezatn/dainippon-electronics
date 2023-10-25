@@ -14,10 +14,10 @@ function Navbar() {
           <img src={DaiLogo} alt="Dainippon" />
           <ul>
             <li>
-              <Link to="/">
+              <Link to="/dainippon-electronics">
                 <img src={HomeImg} alt="Inicio-img" />
               </Link>
-              <Link to="/">Inicio</Link>{" "}
+              <Link to="/dainippon-electronics">Inicio</Link>{" "}
             </li>
             <li>
               <Link to="/Nuestra-Empresa">
