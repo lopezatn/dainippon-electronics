@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dainippon-electronics/static/css/main.29be7fcd.css",
-    "main.js": "/dainippon-electronics/static/js/main.34cc62f2.js",
+    "main.js": "/dainippon-electronics/static/js/main.7da70f95.js",
     "static/js/787.8b963bfd.chunk.js": "/dainippon-electronics/static/js/787.8b963bfd.chunk.js",
     "static/media/aeropuerto-ezeiza.jpg": "/dainippon-electronics/static/media/aeropuerto-ezeiza.cfbf8aba9df792878f65.jpg",
     "static/media/airport-equipment-2.jpg": "/dainippon-electronics/static/media/airport-equipment-2.6ce427815f3709865b2f.jpg",
@@ -13,11 +13,11 @@
     "static/media/home.svg": "/dainippon-electronics/static/media/home.60f8c7fb5431a2fd0db53feb35c2a0e1.svg",
     "static/media/about.svg": "/dainippon-electronics/static/media/about.1f76e71d9e6db65e44bdbaa5b6112d30.svg",
     "main.29be7fcd.css.map": "/dainippon-electronics/static/css/main.29be7fcd.css.map",
-    "main.34cc62f2.js.map": "/dainippon-electronics/static/js/main.34cc62f2.js.map",
+    "main.7da70f95.js.map": "/dainippon-electronics/static/js/main.7da70f95.js.map",
     "787.8b963bfd.chunk.js.map": "/dainippon-electronics/static/js/787.8b963bfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29be7fcd.css",
-    "static/js/main.34cc62f2.js"
+    "static/js/main.7da70f95.js"
   ]
 }
