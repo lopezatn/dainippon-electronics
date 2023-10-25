@@ -4,6 +4,7 @@ import HomeImg from "../../assets/home.svg";
 import AboutImg from "../../assets/about.svg";
 import ProductImg from "../../assets/products.svg";
 import ContactImg from "../../assets/contact.svg";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -13,28 +14,28 @@ function Navbar() {
           <img src={DaiLogo} alt="Dainippon" />
           <ul>
             <li>
-              <a href="./Inicio">
+              <Link to="/">
                 <img src={HomeImg} alt="Inicio-img" />
-              </a>
-              <a href="./Inicio">Inicio</a>{" "}
+              </Link>
+              <Link to="/">Inicio</Link>{" "}
             </li>
             <li>
-              <a href="./Empresa">
+              <Link to="/Nuestra-Empresa">
                 <img src={AboutImg} alt="Empresa-img" />
-              </a>
-              <a href="./Empresa">Nuestra empresa</a>{" "}
+              </Link>
+              <Link to="/Nuestra-empresa">Nuestra empresa</Link>{" "}
             </li>
             <li>
-              <a href="./Productos">
+              <Link to="/Productos">
                 <img src={ProductImg} alt="Productos-img" />
-              </a>
-              <a href="./Productos">Productos</a>{" "}
+              </Link>
+              <Link to="./Productos">Productos</Link>{" "}
             </li>
             <li>
-              <a href="./Contacto">
+              <Link to="./Contacto">
                 <img src={ContactImg} alt="Contacto-img" />
-              </a>
-              <a href="./Contacto">Contacto</a>
+              </Link>
+              <Link to="./Contacto">Contacto</Link>
             </li>
           </ul>
         </nav>

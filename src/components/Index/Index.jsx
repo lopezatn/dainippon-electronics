@@ -10,7 +10,6 @@ function Home() {
 
   return (
     <div>
-      <Navbar />
       <main class="main-content">
         <section class="main-header-content">
           <div class="left-container">
@@ -50,7 +49,6 @@ function Home() {
             <li>Robots para la manipulación de elementos peligrosos.</li>
             <li>Equipos especiales con capacidad de identificación de agentes químicos de guerra y productos químicos tóxicos industriales.</li>
             <li>Integración de tecnologías con sistemas de gestión centralizada, CCTV, control de acceso, etc.</li>
-            <li>Desarrollo de soluciones personalizadas.</li>
             </ul>
           </div>
           <div class="item-right">

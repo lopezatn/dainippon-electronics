@@ -4,7 +4,9 @@ import "./Index.css";
 
 function Company() {
     return (
-        <></>
+        <>
+        Nothing to see here...
+        </>
     )
 }
 
