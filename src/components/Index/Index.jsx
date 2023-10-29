@@ -3,7 +3,6 @@ import "./Index.css";
 import AeropuertoEz from "../../assets/aeropuerto-ezeiza.jpg"
 import Equipment1 from "../../assets/airport-equipment-1.jpg";
 import Equipment2 from "../../assets/airport-equipment-2.jpg";
-import Navbar from "../Navbar/Index";
 
 
 function Home() { 

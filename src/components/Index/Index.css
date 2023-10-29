@@ -5,32 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1f2937;
-    padding: 2.5em;
-}
-
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    gap: 25px;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #E5E7EB;
-}
-
-nav ul li img {
-    padding-right: 0.3em;
-    filter: invert();
-}
-
 .main-content {
     background: #d3d8dc;
 }

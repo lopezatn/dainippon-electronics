@@ -1,0 +1,30 @@
+.main-header-content {
+    background-image: url(../../assets/Dainippon-contact-us.jpg);
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+    padding: 2em 8em;
+    height: 400px;
+}
+
+.main-title-style {
+    color: white;
+    font-weight: bolder;
+    font-size: 46px;
+    padding: 2% 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.main-desc-style {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-right: 25%;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

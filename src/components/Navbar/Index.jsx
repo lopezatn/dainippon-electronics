@@ -1,4 +1,5 @@
 import React from "react";
+import "./Index.css"
 import DaiLogo from "../../assets/Dailogo-nobg.png";
 import HomeImg from "../../assets/home.svg";
 import AboutImg from "../../assets/about.svg";
